@@ -1,0 +1,108 @@
+/* categories */
+.categories {
+  padding: 20px;
+  font-weight: bold;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  padding: 5px;
+
+}
+
+.icon_body {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+  display: block;
+  box-shadow: 1px 3px 64px -19px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: 1px 3px 64px -19px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 1px 3px 64px -19px rgba(0, 0, 0, 0.32);
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  transition: 0.7s ease-in-out;
+}
+.icon_body:hover{
+width: 115px;
+height: 115px;
+transition: 0.7s ease-in-out;
+}
+.icon_p {
+  font-size: 10px;
+}
+
+/* Fifty */
+.fifty_title {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.card {
+
+  display: grid;
+  margin: 0 auto;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.front_card {
+  margin: 10px;
+  padding: 50px;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 1px 3px 64px -19px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: 1px 3px 64px -19px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 1px 3px 64px -19px rgba(0, 0, 0, 0.32);
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+
+.front_img {
+  width: 200px;
+  height: 200px;
+}
+
+.price_img {
+  width: 20px;
+}
+
+.front_price {
+  display: flex;
+}
+
+.modal_more {
+  display: block;
+  justify-content: center;
+  background-color: rgb(88, 127, 255);
+  padding: 2px;
+  color: white;
+  border-radius: 3px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .icon_body {
+    margin: 15px;
+  }
+
+  .Card {}
+}
