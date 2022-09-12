@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/material": "^5.10.4",
     "@next/react-refresh-utils": "^12.3.0",
     "@reduxjs/toolkit": "^1.8.5",
     "@walletconnect/http-connection": "^1.8.0",
