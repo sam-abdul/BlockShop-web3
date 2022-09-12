@@ -1,8 +1,8 @@
 import { React, useState } from 'react'
-import TextField from '@mui/material/TextField'
+import TextField from '@mui/material/TextField/TextField'
 import List from '../components/List'
 import { Navbar } from '../components/Navbar'
-import styles from '../styles/Search.module.css'
+import styles from '../styles/com.module.css'
 
 export default function Search() {
     const [inputText, setInputText] = useState("");
@@ -21,7 +21,7 @@ export default function Search() {
           onChange={inputHandler}
           variant="outlined"
           fullWidth
-          label="Search"
+          label="Search for the item"
         />
       </div>
       <List input={inputText} />
