@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Carousel from '../components/Carousel'
 import Categories from '../components/Categories'
 import Fifty from '../components/Fifty'
+
 import Brands from '../components/Brands'
 import New from '../components/New'
 import Partner from '../components/Partner'
@@ -17,8 +18,9 @@ export default function Home() {
       <Navbar />
       <Carousel />
       <Categories />
-      <Fifty />
-      {/* <Brands/> */}
+      {/* <Fifty /> */}
+
+      <Brands/>
       {/* <New/> */}
       {/* <Partner/> */}
       <Footer/>
