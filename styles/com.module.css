@@ -1,3 +1,43 @@
+/* Search */
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.search {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.filter {
+  display: grid;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.filterOne {
+
+  border: 1px solid white;
+  color: black;
+  padding: 12px;
+  font-weight: bold;
+  padding-right: 250px;
+  background-color: rgb(238, 245, 255);
+}
+/* Carousel */
+.carousel{
+  width: 70%;
+margin: 0 auto;
+
+}
 /* categories */
 .categories {
   padding: 20px;
@@ -28,11 +68,13 @@
   padding: 10px;
   transition: 0.7s ease-in-out;
 }
-.icon_body:hover{
-width: 115px;
-height: 115px;
-transition: 0.7s ease-in-out;
+
+.icon_body:hover {
+  width: 115px;
+  height: 115px;
+  transition: 0.7s ease-in-out;
 }
+
 .icon_p {
   font-size: 10px;
 }
@@ -50,17 +92,10 @@ transition: 0.7s ease-in-out;
   margin-top: 20px;
 }
 
-.card {
-
-  display: grid;
-  margin: 0 auto;
-  grid-gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-}
 
 .front_card {
   margin: 10px;
-  padding: 50px;
+  padding: 30px;
   border-radius: 5px;
   font-weight: bold;
   box-shadow: 1px 3px 64px -19px rgba(0, 0, 0, 0.32);
@@ -70,7 +105,6 @@ transition: 0.7s ease-in-out;
   display: grid;
   gap: 1rem;
 }
-
 
 .front_img {
   width: 200px;
@@ -98,11 +132,73 @@ transition: 0.7s ease-in-out;
   padding-left: 50px;
   padding-right: 50px;
 }
+/* Brand */
+.h2Body{
+  display: flex;
+  justify-content: center;
+}
+.h2{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin: 30px;
+  padding-right: 250px;
+  padding-left: 250px;
+  text-align: center;
+}
+.brand{
+  width: 80%;
+}
+/* Footer */
+.footerBody{
+  padding: 20px;
+  background-color: black;
+  width: 100%;
+}
+.footer{
 
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 50px;
+}
+.socialBody{
+  display: flex;
+  justify-content: center;
+  margin-top:-10px ;
+}
+.social{
+  padding-left: 1px;
+  padding-right: 1px;
+  cursor: pointer;
+}
+.NavBody{
+  font-size: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+ 
+}
+@media only screen and (max-width: 900px) {
+  .carousel{
+    width: 100%;
+    max-width: 80%;
+  }
+
+}
 @media only screen and (max-width: 600px) {
+
   .icon_body {
     margin: 15px;
   }
 
-  .Card {}
+.front_card{
+
+}
+.front_img {
+  width: 120px;
+  height: 120px;
+}
 }
